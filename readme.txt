@@ -1,3 +1,10 @@
+THIS IS AN ANKI ALTERNATIVE.
+Think Anki has too many features? Try This! This has nothing!
+
+
+
+
+
 1. The Project
 Before moving files, ensure your folder looks like this:
 
@@ -101,3 +108,4 @@ See live logs (who's studying?): journalctl -u flashcards -f
 
 
 Update code: Just SCP the new app.py over, then run sudo systemctl restart flashcards.
+
