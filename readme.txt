@@ -1,4 +1,4 @@
-1. The Project "Parts List"
+1. The Project
 Before moving files, ensure your folder looks like this:
 
 app.py (The Python Logic)
@@ -37,10 +37,10 @@ Run: pip install -r requirements.txt
 
 Run it: python app.py
 
-3. Raspberry Pi Setup (Headless / No GUI)
+3. Raspberry Pi Setup
 This is for a "Set it and Forget it" server in the corner of your room.
 
-Step A: Preparation (From your PC)
+Step A: Preparation
 Flash SD Card: Use Raspberry Pi Imager. Click the Cog/Settings icon.
 
 Enable SSH: Set a username (pi) and password.
@@ -97,17 +97,7 @@ Get the IP: Your Pi's local IP (e.g., 192.168.50.215) or Tailscale IP (100.88.14
 
 The URL: Type http://[IP-ADDRESS]:8080 into your phone's browser.
 
-The UI: Enjoy the High-Contrast OLED Dark Mode.
-
-Front/Question: Locked to top.
-
-Buttons: Standard SRS colors (Red/Yellow/Blue/Green).
-
-6. Maintenance Commands
-If you need to tweak things via SSH later:
-
-Check if it's running: sudo systemctl status flashcards
-
 See live logs (who's studying?): journalctl -u flashcards -f
+
 
 Update code: Just SCP the new app.py over, then run sudo systemctl restart flashcards.
