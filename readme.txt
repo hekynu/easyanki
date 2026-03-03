@@ -1,5 +1,5 @@
 THIS IS AN ANKI ALTERNATIVE.
-Think Anki has too many features? Try This! This has nothing!
+Think Anki has too many features? Try this! This has nothing!
 
 
 
@@ -108,4 +108,5 @@ See live logs (who's studying?): journalctl -u flashcards -f
 
 
 Update code: Just SCP the new app.py over, then run sudo systemctl restart flashcards.
+
 
