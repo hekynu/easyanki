@@ -104,7 +104,7 @@ Get the IP: Your Pi's local IP (e.g., 192.168.50.215) or Tailscale IP (100.88.14
 
 The URL: Type http://[IP-ADDRESS]:8080 into your phone's browser.
 
-See live logs (who's studying?): journalctl -u flashcards -f
+See live logs: journalctl -u flashcards -f
 
 
 Update code: Just SCP the new app.py over, then run sudo systemctl restart flashcards.
